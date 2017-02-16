@@ -1,0 +1,11 @@
+MaterialDef Simple {
+    MaterialParameters {
+        Vector4 Color
+    }
+    Technique {
+
+        VertexShader GLSL100: MatDefs/SimpleColor/SolidColor.vert
+        FragmentShader GLSL100: MatDefs/SimpleColor/SolidColor.frag
+    }
+
+}
